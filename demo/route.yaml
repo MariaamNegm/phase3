@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Route
+metadata:
+  name: routesql
+spec:
+   host: routesql.example.com
+   to:
+    kind : Service
+    name:  spring-service
+
